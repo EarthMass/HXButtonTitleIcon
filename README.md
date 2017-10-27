@@ -1,5 +1,8 @@
 # HXButtonTitleIcon
 HXButtonTitleIcon 便捷的使用 带图片文字的按钮，简单的布局。只有一个方法，使用就是按钮
+## 基于 
+ * [按钮图片文字对齐方式](https://github.com/xiaolanlianhua/UIButtonCenterTitleAndImage 
+ * [图片大小修改](https://github.com/AliSoftware/UIImage-Resize)  图片大小修改
 
 # 版本要求 IOS7 +
 
