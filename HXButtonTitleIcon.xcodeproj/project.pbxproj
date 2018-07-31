@@ -16,9 +16,9 @@
 		134DD9481FA2B89E003747E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134DD9461FA2B89E003747E3 /* Main.storyboard */; };
 		134DD94A1FA2B89E003747E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134DD9491FA2B89E003747E3 /* Assets.xcassets */; };
 		134DD94D1FA2B89E003747E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134DD94B1FA2B89E003747E3 /* LaunchScreen.storyboard */; };
-		13B485891FA2C30300C9FC24 /* HXButtonIconTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B485841FA2C30300C9FC24 /* HXButtonIconTitle.m */; };
-		13B4858A1FA2C30300C9FC24 /* UIButton+CenterImageAndTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B485861FA2C30300C9FC24 /* UIButton+CenterImageAndTitle.m */; };
-		13B4858B1FA2C30300C9FC24 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B485881FA2C30300C9FC24 /* UIImage+Resize.m */; };
+		13979309210FFDFF0025EF60 /* HXButtonIconTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 13979305210FFDFE0025EF60 /* HXButtonIconTitle.m */; };
+		1397930A210FFDFF0025EF60 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 13979307210FFDFF0025EF60 /* UIImage+Resize.m */; };
+		1397930B210FFDFF0025EF60 /* UIButton+CenterImageAndTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 13979308210FFDFF0025EF60 /* UIButton+CenterImageAndTitle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,12 +35,12 @@
 		134DD9491FA2B89E003747E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		134DD94C1FA2B89E003747E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		134DD94E1FA2B89E003747E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13B485831FA2C30300C9FC24 /* HXButtonIconTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXButtonIconTitle.h; sourceTree = "<group>"; };
-		13B485841FA2C30300C9FC24 /* HXButtonIconTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXButtonIconTitle.m; sourceTree = "<group>"; };
-		13B485851FA2C30300C9FC24 /* UIButton+CenterImageAndTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CenterImageAndTitle.h"; sourceTree = "<group>"; };
-		13B485861FA2C30300C9FC24 /* UIButton+CenterImageAndTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CenterImageAndTitle.m"; sourceTree = "<group>"; };
-		13B485871FA2C30300C9FC24 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		13B485881FA2C30300C9FC24 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		13979303210FFDFE0025EF60 /* UIButton+CenterImageAndTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CenterImageAndTitle.h"; sourceTree = "<group>"; };
+		13979304210FFDFE0025EF60 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		13979305210FFDFE0025EF60 /* HXButtonIconTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXButtonIconTitle.m; sourceTree = "<group>"; };
+		13979306210FFDFF0025EF60 /* HXButtonIconTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXButtonIconTitle.h; sourceTree = "<group>"; };
+		13979307210FFDFF0025EF60 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		13979308210FFDFF0025EF60 /* UIButton+CenterImageAndTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CenterImageAndTitle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +101,12 @@
 		13B485821FA2C30300C9FC24 /* HXButtonIconTitle */ = {
 			isa = PBXGroup;
 			children = (
-				13B485831FA2C30300C9FC24 /* HXButtonIconTitle.h */,
-				13B485841FA2C30300C9FC24 /* HXButtonIconTitle.m */,
-				13B485851FA2C30300C9FC24 /* UIButton+CenterImageAndTitle.h */,
-				13B485861FA2C30300C9FC24 /* UIButton+CenterImageAndTitle.m */,
-				13B485871FA2C30300C9FC24 /* UIImage+Resize.h */,
-				13B485881FA2C30300C9FC24 /* UIImage+Resize.m */,
+				13979306210FFDFF0025EF60 /* HXButtonIconTitle.h */,
+				13979305210FFDFE0025EF60 /* HXButtonIconTitle.m */,
+				13979303210FFDFE0025EF60 /* UIButton+CenterImageAndTitle.h */,
+				13979308210FFDFF0025EF60 /* UIButton+CenterImageAndTitle.m */,
+				13979304210FFDFE0025EF60 /* UIImage+Resize.h */,
+				13979307210FFDFF0025EF60 /* UIImage+Resize.m */,
 			);
 			path = HXButtonIconTitle;
 			sourceTree = SOURCE_ROOT;
@@ -186,11 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				134DD9451FA2B89E003747E3 /* ViewController.m in Sources */,
-				13B4858A1FA2C30300C9FC24 /* UIButton+CenterImageAndTitle.m in Sources */,
-				13B485891FA2C30300C9FC24 /* HXButtonIconTitle.m in Sources */,
+				1397930B210FFDFF0025EF60 /* UIButton+CenterImageAndTitle.m in Sources */,
+				13979309210FFDFF0025EF60 /* HXButtonIconTitle.m in Sources */,
 				134DD9421FA2B89E003747E3 /* AppDelegate.m in Sources */,
 				134DD93F1FA2B89E003747E3 /* main.m in Sources */,
-				13B4858B1FA2C30300C9FC24 /* UIImage+Resize.m in Sources */,
+				1397930A210FFDFF0025EF60 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

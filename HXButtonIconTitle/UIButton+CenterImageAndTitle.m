@@ -115,5 +115,33 @@
     [self horizontalCenterTitleAndImageRight:DEFAULT_SPACING];
 }
 
+- (void)horizontalImageAndTitleFixedIcon:(CGFloat)spacing imageEdgeSpace:(CGFloat)edgeSpace
+{
+    self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;//居左显示
+    
+    self.imageEdgeInsets = UIEdgeInsetsMake(0, edgeSpace, 0, 0);
+    self.titleEdgeInsets = UIEdgeInsetsMake(0, spacing + edgeSpace, 0, 0);
+    
+}
+
+- (void)horizontalTitleAndImageFixedIcon:(CGFloat)spacing imageEdgeSpace:(CGFloat)edgeSpace
+{
+    self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
+//
+    // get the size of the elements here for readability
+    CGSize imageSize = self.imageView.frame.size;
+    CGSize titleSize = self.titleLabel.frame.size;
+    
+    // lower the text and push it left to center it
+    self.titleEdgeInsets = UIEdgeInsetsMake(0.0, -imageSize.width - edgeSpace - spacing, 0.0, imageSize.width + edgeSpace + spacing);
+    
+    // the text width might have changed (in case it was shortened before due to
+    // lack of space and isn't anymore now), so we get the frame size again
+    titleSize = self.titleLabel.frame.size;
+    
+    // raise the image and push it right to center it
+    self.imageEdgeInsets = UIEdgeInsetsMake(0.0, titleSize.width - edgeSpace, 0.0, -(titleSize.width - edgeSpace));
+}
+
 
 @end

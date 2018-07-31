@@ -30,4 +30,8 @@
 - (void)horizontalCenterTitleAndImageRight:(CGFloat)spacing;
 - (void)horizontalCenterTitleAndImageRight; //默认6.0
 
+//图左边， 字右 图左距 固定
+- (void)horizontalImageAndTitleFixedIcon:(CGFloat)spacing imageEdgeSpace:(CGFloat)edgeSpace;
+//图右边， 字左 图右距 固定
+- (void)horizontalTitleAndImageFixedIcon:(CGFloat)spacing imageEdgeSpace:(CGFloat)edgeSpace;
 @end

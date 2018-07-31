@@ -16,7 +16,9 @@ typedef enum {
     HXButtonAlignmentIconRight,
     HXButtonAlignmentIconTop,
     HXButtonAlignmentTitleCenterIconLeft,
-    HXButtonAlignmentTitleCenterIconRight
+    HXButtonAlignmentTitleCenterIconRight,
+    HXButtonAlignmentIconFixedLeft,  //固定边距的 默认10
+    HXButtonAlignmentIconFixedRight, //固定边距的 默认10
 }HXButtonIconTitleAlignment;
 
 @interface HXButtonIconTitle : UIButton
@@ -27,6 +29,15 @@ typedef enum {
                         iconSize:(CGSize)iconSize //图片不会变形
                        alignment:(HXButtonIconTitleAlignment)alignment
                            space:(CGFloat)space
+             scaleImageIfSmaller:(BOOL)scaleImageIfSmaller;
+
+- (void)buttonIconTitleWithTitle:(NSString *)title
+                            font:(UIFont *)font
+                            icon:(UIImage *)icon
+                        iconSize:(CGSize)iconSize //图片不会变形
+                       alignment:(HXButtonIconTitleAlignment)alignment
+                           space:(CGFloat)space
+                            edge:(CGFloat)edge
              scaleImageIfSmaller:(BOOL)scaleImageIfSmaller;
 
 @end
