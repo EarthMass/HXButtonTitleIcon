@@ -21,7 +21,7 @@ pod 'HXButtonTitleIcon'
 #import <HXButtonIconTitle/HXButtonIconTitle.h>
 ```
 
-* 调用代码
+* 调用代码 添加在 addSubView后，或者是 masonry布局之后
 ```
    [button1 buttonIconTitleWithTitle:@"你好你好" font:[UIFont systemFontOfSize:12] icon:[UIImage imageNamed:@"dropdown_loading_03.jpg"] iconSize:CGSizeMake(30,30) alignment:i space:0 scaleImageIfSmaller:NO];
 ```
