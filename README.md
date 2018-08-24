@@ -7,7 +7,8 @@ HXButtonTitleIcon 便捷的使用 带图片文字的按钮，简单的布局。�
 # 版本要求 IOS7 +
 
 # 效果图片
-![](https://github.com/EarthMass/HXButtonTitleIcon/blob/master/HXButtonTitleIcon1.png)
+![](https://github.com/EarthMass/HXButtonTitleIcon/blob/1.0.3/HXButtonTitleIcon1.jpg)
+
 
 # 安装 pod
 ```
@@ -27,3 +28,5 @@ pod 'HXButtonTitleIcon'
 ```
 
 # 有什么问题 联系我，627556038@qq.com
+
+
