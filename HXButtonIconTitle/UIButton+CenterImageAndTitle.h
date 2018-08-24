@@ -34,4 +34,10 @@
 - (void)horizontalImageAndTitleFixedIcon:(CGFloat)spacing imageEdgeSpace:(CGFloat)edgeSpace;
 //图右边， 字左 图右距 固定
 - (void)horizontalTitleAndImageFixedIcon:(CGFloat)spacing imageEdgeSpace:(CGFloat)edgeSpace;
+
+//图右边， 字中 图右距 固定
+- (void)horizontalTitleCenterAndImageFixedRight:(CGFloat)edgeSpace;
+
+//图左边， 字中 图右距 固定
+- (void)horizontalTitleCenterAndImageFixedLeft:(CGFloat)edgeSpace;
 @end

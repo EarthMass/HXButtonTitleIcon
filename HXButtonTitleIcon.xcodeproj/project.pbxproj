@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1332501F212F901B00CAA40B /* ButtonXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1332501E212F901B00CAA40B /* ButtonXib.xib */; };
+		13325021212F90AF00CAA40B /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13325020212F90AF00CAA40B /* icon.jpg */; };
 		1348E7981FA2C47A00D662D9 /* dropdown_loading_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1348E7951FA2C47A00D662D9 /* dropdown_loading_03.jpg */; };
 		1348E7991FA2C47A00D662D9 /* img_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348E7961FA2C47A00D662D9 /* img_up.png */; };
 		1348E79A1FA2C47A00D662D9 /* img_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348E7971FA2C47A00D662D9 /* img_up@2x.png */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1332501E212F901B00CAA40B /* ButtonXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonXib.xib; sourceTree = "<group>"; };
+		13325020212F90AF00CAA40B /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 		1348E7951FA2C47A00D662D9 /* dropdown_loading_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dropdown_loading_03.jpg; sourceTree = "<group>"; };
 		1348E7961FA2C47A00D662D9 /* img_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_up.png; sourceTree = "<group>"; };
 		1348E7971FA2C47A00D662D9 /* img_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_up@2x.png"; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1348E7951FA2C47A00D662D9 /* dropdown_loading_03.jpg */,
+				13325020212F90AF00CAA40B /* icon.jpg */,
 				1348E7961FA2C47A00D662D9 /* img_up.png */,
 				1348E7971FA2C47A00D662D9 /* img_up@2x.png */,
 				13B485821FA2C30300C9FC24 /* HXButtonIconTitle */,
@@ -86,6 +91,7 @@
 				134DD94B1FA2B89E003747E3 /* LaunchScreen.storyboard */,
 				134DD94E1FA2B89E003747E3 /* Info.plist */,
 				134DD93D1FA2B89E003747E3 /* Supporting Files */,
+				1332501E212F901B00CAA40B /* ButtonXib.xib */,
 			);
 			path = HXButtonTitleIcon;
 			sourceTree = "<group>";
@@ -169,12 +175,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13325021212F90AF00CAA40B /* icon.jpg in Resources */,
 				134DD94D1FA2B89E003747E3 /* LaunchScreen.storyboard in Resources */,
 				1348E79A1FA2C47A00D662D9 /* img_up@2x.png in Resources */,
 				1348E7991FA2C47A00D662D9 /* img_up.png in Resources */,
 				134DD94A1FA2B89E003747E3 /* Assets.xcassets in Resources */,
 				1348E7981FA2C47A00D662D9 /* dropdown_loading_03.jpg in Resources */,
 				134DD9481FA2B89E003747E3 /* Main.storyboard in Resources */,
+				1332501F212F901B00CAA40B /* ButtonXib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

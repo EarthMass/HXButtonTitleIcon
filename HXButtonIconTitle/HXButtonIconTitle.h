@@ -19,6 +19,8 @@ typedef enum {
     HXButtonAlignmentTitleCenterIconRight,
     HXButtonAlignmentIconFixedLeft,  //固定边距的 默认10
     HXButtonAlignmentIconFixedRight, //固定边距的 默认10
+    HXButtonAlignmentTitleCenterIconFixedRight, //图标固定边距的 文字居中
+    HXButtonAlignmentTitleCenterIconFixedLeft, //图标固定边距的 文字居中
 }HXButtonIconTitleAlignment;
 
 @interface HXButtonIconTitle : UIButton

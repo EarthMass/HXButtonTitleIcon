@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HXButtonTitleIcon"
-  s.version      = "0.0.2"
+  s.version      = "1.0.3"
   s.summary      = "HXButtonTitleIcon 按钮图片文字便捷使用"
 
   # This description is used to generate tags and improve search results.

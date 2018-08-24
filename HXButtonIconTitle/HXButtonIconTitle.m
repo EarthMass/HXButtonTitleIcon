@@ -89,6 +89,20 @@
            
         }
             break;
+        case HXButtonAlignmentTitleCenterIconFixedRight: //图右 字中 图片边距固定
+        {
+            [self horizontalTitleCenterAndImageFixedRight:10];
+        
+        }
+            break;
+            
+        case HXButtonAlignmentTitleCenterIconFixedLeft: //图左 字中 图片边距固定
+        {
+            [self horizontalTitleCenterAndImageFixedLeft:10];
+            
+        }
+            break;
+            
             
             
         default:
@@ -171,6 +185,20 @@
         case HXButtonAlignmentIconFixedRight: //图右 字左 图片边距固定
         {
             [self horizontalTitleAndImageFixedIcon:space imageEdgeSpace:edge];
+            
+        }
+            break;
+            
+        case HXButtonAlignmentTitleCenterIconFixedRight: //图右 字中 图片边距固定
+        {
+            [self horizontalTitleCenterAndImageFixedRight:edge];
+            
+        }
+            break;
+            
+        case HXButtonAlignmentTitleCenterIconFixedLeft: //图左 字中 图片边距固定
+        {
+            [self horizontalTitleCenterAndImageFixedLeft:edge];
             
         }
             break;
